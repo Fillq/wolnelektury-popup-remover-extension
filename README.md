@@ -18,6 +18,10 @@ ___
 
 ## Installation 
 
+<details>
+
+<summary>Detailed installation guide</summary>
+
 Currently, the extension must be installed manually.
 
 **Follow the step-by-step guide below to install it:**
@@ -36,9 +40,17 @@ Currently, the extension must be installed manually.
 6. Enjoy clutter free experience,
 ##### Installation process may vary a bit depending on which browser you are using, but should overall stay very similar
 
+</details>
+
+<details>
+
+<summary>Before and after comparison</summary>
+
 ![before](https://github.com/user-attachments/assets/abf3b111-15dc-498b-a6f5-83ec432140e6)
 
 ![after](https://github.com/user-attachments/assets/0b00d32b-11c5-4294-a606-6d5ae213cc59)
+
+</details>
 
 ___
 
