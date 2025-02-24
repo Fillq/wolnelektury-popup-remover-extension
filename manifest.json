@@ -1,0 +1,26 @@
+{
+  "name": "Wolnelektury Popup Remover",
+  "version": "0.1.0",
+  "description": "Usuwa irytujące pop-upy ze strony wolnelektury.pl",
+  "permissions": ["storage", "tabs", "scripting"],
+  "host_permissions": ["*://wolnelektury.pl/*"],
+  "background": {
+      "service_worker": "background.js"
+  },
+  "content_scripts": [
+      {
+          "matches": ["*://wolnelektury.pl/*"],
+          "js": ["contentScript.js"]
+      }
+  ],
+  "action": {
+      "default_icon": {
+          "16": "assets/ext-icon.png",
+          "24": "assets/ext-icon.png",
+          "32": "assets/ext-icon.png"
+      },
+      "default_title": "Wolnelektury Popup Remover",
+      "default_popup": "popup.html"
+  },
+  "manifest_version": 3
+}
